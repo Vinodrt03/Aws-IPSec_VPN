@@ -3,7 +3,7 @@
 #              tags for resources. You can use terraform-labels to implement a strict
 #              naming convention.
 module "labels" {
-  source  = "clouddrove/labels/aws"
+  source  = "Vinodrt03/Aws-IPSec_VPN"
   version = "0.15.0"
 
   name        = var.name
