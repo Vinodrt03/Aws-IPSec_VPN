@@ -1,7 +1,5 @@
 #Module      : labels
-#Description : This terraform module is designed to generate consistent labels names and
-#              tags for resources. You can use terraform-labels to implement a strict
-#              naming convention.
+#Description : This terraform module is for milkbasket to RRA IPSec-VPN Integartion
 module "labels" {
   source  = "Vinodrt03/Aws-IPSec_VPN"
   version = "0.15.0"
