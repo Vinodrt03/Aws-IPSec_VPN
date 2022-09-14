@@ -1,7 +1,7 @@
 #Module      : labels
 #Description : This terraform module is for milkbasket to RRA IPSec-VPN Integartion
 module "labels" {
-  source  = "Vinodrt03/Aws-IPSec_VPN"
+  source  = "clouddrove/labels/aws"
   version = "0.15.0"
 
   name        = var.name
