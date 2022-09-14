@@ -75,7 +75,7 @@ resource "aws_customer_gateway" "main" {
   tags = merge(
     module.labels.tags,
     {
-      "Name" = format("%s-milkbasket-rra-cgw", module.labels.id)
+      "Name" = format("%smilkbasket-rra-cgw", module.labels.id)
     }
   )
 }
@@ -87,7 +87,7 @@ resource "aws_vpn_gateway" "vpn" {
   tags = merge(
     module.labels.tags,
     {
-      "Name" = format("%s-milkbasket-rra-vgw", module.labels.id)
+      "Name" = format("%smilkbasket-rra-vgw", module.labels.id)
     }
   )
 }
